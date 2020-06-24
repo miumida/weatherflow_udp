@@ -1,0 +1,41 @@
+{
+  "name": "WeatherFlow UDP",
+  "version": "1.0.0",
+  "slug": "weatherflow_udp",
+  "description": "WeatherFlow UDP in Hass.io",
+  "auto_uart": true,
+  "url": "https://github.com/miumida/wfu",
+  "host_network":true,
+  "startup": "before",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "boot": "auto",
+  "map": [
+    "share:rw",
+    "addons:rw",
+    "ssl:ro"
+  ],
+  "ports": {
+    "50222/udp": 50222
+  },
+  "ports_description": {
+    "50222/udp": "udp port"
+  },
+  "options": {
+    "data_path": "/share/weatherflow",
+    "homeassistant": true,
+    "permit_join": false,
+    "mqtt_broker": "core-mosquitto"
+  },
+  "schema": {
+    "data_path": "str",
+    "homeassistant": "bool",
+    "permit_join": "bool",
+    "mqtt_broker": "str"
+  }
+}
