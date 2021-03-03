@@ -1,10 +1,14 @@
 # Hass.io Add-on: WeatherFlow UDP
 
-![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield] ![Version v1.0.0][addon-shield]
+![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield] ![Version v1.0.1][addon-shield]
 
 ## About
 WeatherFlow UDP 
 
+### Change History
+|일자|변경내용|
+|----|------|
+|2021-03-03|- startup -> before<br>- auto_uart -> uart<br>- option.permit_join 삭제|
 
 ### Option
 |옵션|내용|
@@ -26,4 +30,4 @@ WeatherFlow UDP
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 
-[addon-shield]: https://img.shields.io/badge/addon-1.0.0-orange.svg
+[addon-shield]: https://img.shields.io/badge/addon-1.0.1-orange.svg
