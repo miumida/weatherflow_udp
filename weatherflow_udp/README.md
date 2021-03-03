@@ -8,7 +8,7 @@ WeatherFlow UDP
 ### Change History
 |일자|변경내용|
 |----|------|
-|2021-03-03|- startup -> before<br>- auto_uart -> uart<br>- option.permit_join 삭제|
+|2021-03-03|- startup -> before<br>- auto_uart -> uart<br>- options.permit_join 삭제|
 
 ### Option
 |옵션|내용|
